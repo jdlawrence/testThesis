@@ -20,10 +20,21 @@
       "directory": "db/seeds"
     }
   },
-
   "passport": {
-    "Google": {},
-    "Facebook": {},
-    "Twitter": {}
+    "Google": {
+      "clientID": "355564825174-re02cp0i5j8bpmqesip0ob8hifa29o3v.apps.googleusercontent.com",
+      "clientSecret": "D48FeRn0rHT2ql1OXWEkfzMA",
+      "callbackURL": "http://localhost:3000/auth/google/callback"
+    },
+    "Facebook": {
+      "clientID": "785811531579458",
+      "clientSecret": "9a2252ff1e404d7cce4c73f648cf9084",
+      "callbackURL": "http://localhost:3000/auth/facebook/callback"
+    },
+    "Twitter": {
+      "consumerKey": "Q3Tt6BNt54jMEPvJl4ukLE840",
+      "consumerSecret": "fWrL7mlqsCUYfDY43ROOO285oUkIYIBMfm4aDnTlbUI3ogUnGR",
+      "callbackURL": "http://localhost:3000/auth/twitter/callback"
+    }
   }
 }
