@@ -1,8 +1,6 @@
 {
   "knex": {
-    "connection": {
-      "database": "DATABASE_URL"
-    },
+    "connection": "DATABASE_URL",
     "debug": false,
     "pool": {
       "min": 2,
