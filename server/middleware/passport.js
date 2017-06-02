@@ -6,7 +6,6 @@ const FacebookStrategy = require('passport-facebook').Strategy;
 const TwitterStrategy = require('passport-twitter').Strategy;
 const config = require('config')['passport'];
 const models = require('../../db/models');
-console.log('coniiiiiiiiiiiif', config);
 passport.serializeUser((profile, done) => {
   done(null, profile.id);
 });
