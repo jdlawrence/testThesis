@@ -1,4 +1,7 @@
 {
+  "knex": {
+    "connection": "DATABASE_URL"
+  },
   "passport": {
     "Google": {
       "clientID": "GOOG_ID",
