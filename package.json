@@ -8,8 +8,7 @@
     "start-dev": "nodemon index.js",
     "start": "node server",
     "test": "NODE_ENV=test grunt test",
-    "build": "webpack --watch",
-    "heroku-postbuild": "knex migrate:latest"
+    "build": "webpack --watch"
   },
   "author": "Hack Reactor",
   "license": "MIT",
