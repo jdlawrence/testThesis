@@ -1,6 +1,6 @@
 {
   "knex": {
-    "connection": "DATABASE_URL",
+    "connection": "process.env.DATABASE_URL",
     "debug": false,
     "pool": {
       "min": 2,
