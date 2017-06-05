@@ -17,6 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "babel-core": "^6.24.1",
+    "babel-register": "^6.24.1",
     "bcrypt-nodejs": "^0.0.3",
     "bluebird": "^3.5.0",
     "body-parser": "^1.17.1",
